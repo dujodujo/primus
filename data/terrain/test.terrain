@@ -1,0 +1,32 @@
+[width]
+10
+[height]
+6
+[terrain_height]
+1111111111
+1113578911
+1111734111
+1117135411
+1113311122
+1111111123
+[terrain_type]
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+hhhhhhhhhh
+
+#name, code, width to height ratio
+#plain P 2:1 (~26 degrees)
+#hills H 1:1 (~45 degrees)
+#mountains M 1:2 (~64 degrees, unclimbable and made see-through if needed since they might obscure)
+#coast C 2:1
+#river R 1:0 (flat)
+#sea S 1:0 (flat)
+#01122100
+#01112111
+#11012222
+#01112332
+
+

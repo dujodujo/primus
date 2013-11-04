@@ -1,0 +1,35 @@
+[hud_design.font_name]
+mono #hud_status
+
+[hud_design.area_textures]
+hud_status #hud_status
+hud_heat #hud_heat
+hud_log #hud_log
+
+[hud_design.positions]
+80;380 #hud_status
+0;380 #hud_heat
+460;380 #hud_log
+
+[hud_design.sizes]
+360;100 #hud_status
+100;100 #hud_heat
+180;100 #hud_log
+
+[hud_design.parts.0]
+hud_status #area
+hud_heat_dial_temp #name
+0;0 #position
+100;100 #size
+
+[hud_design.parts.1]
+hud_status #area
+hud_heat_dial_temp_out #name
+100;0 #position
+100;100 #size
+
+[hud_design.parts.2]
+hud_status #area
+hud_heat_dial_coolant #name
+200;0 #position
+100;100 #size
